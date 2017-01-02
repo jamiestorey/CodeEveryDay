@@ -1,0 +1,9 @@
+.root {
+    -fx-background-color: blue;
+}
+.button{
+    -fx-background-color: yellow;
+}
+.menu-bar{
+    -fx-background-color: orange;
+}
