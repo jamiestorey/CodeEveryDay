@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Rock Paper Scissors</title>
+    <meta name="description" content="Rock Paper Scissors">
+    <style>
+        button {
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="btnGame" onclick="game()">Play!</button>
+    <p id="result"></p>
+    <script>
+        function game() {
+            var userChoice = prompt("Do you choose rock, paper or scissors?");
+            var computerChoice = Math.random();
+            if (computerChoice < 0.34) {
+                computerChoice = "rock";
+            } else if (computerChoice <= 0.67) {
+                computerChoice = "paper";
+            } else {
+                computerChoice = "scissors";
+            }
+            var winner = compare(userChoice, computerChoice);
+            console.log(winner);
+            document.getElementById("result").innerHTML += winner + "<br />";
+        }
+
+        var compare = function(choice1, choice2) {
+            if (choice1 === choice2 || choice2 === choice1) {
+                return "The result is a tie!";
+            }
+
+            if (choice1 === "rock") {
+                if (choice2 === "scissors") {
+                    return "rock wins"
+                } else {
+                    return "paper wins"
+                }
+            }
+
+            if (choice1 === "paper") {
+                if (choice2 === "rock") {
+                    return "paper wins";
+                } else {
+                    return "scissors wins";
+                }
+            }
+
+            if (choice1 === "scissors") {
+                if (choice2 === "rock") {
+                    return "rock wins";
+                } else {
+                    return "scissors wins";
+                }
+            }
+        };
+    </script>
+</body>
+
+</html>
