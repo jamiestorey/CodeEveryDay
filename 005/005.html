@@ -23,10 +23,6 @@
         body {
             background-color: black;
         }
-        
-        .holder {
-            background-color: yellow;
-        }
     </style>
 </head>
 
@@ -39,33 +35,24 @@
 
         function btnOneClick() {
             document.getElementById("btnOne").innerHTML = "Stop!";
-            console.log("a");
             document.getElementById("btnOne").setAttribute("onClick", "stop()");
-            console.log("b");
             stopz = false;
             Squares();
         }
 
         function Squares() {
             if (!stopz) {
-                for (var i = 0; i < 1; i++) {
-                    //Color gen from https://www.paulirish.com/2009/random-hex-color-code-snippets/
-                    document.getElementById("holder").innerHTML += '<div style=\"background-color: #' + Math.floor(Math.random() * 16777215).toString(16) + ";" + '>" + class="square"></div>';
-                    setTimeout(Squares, 200);
-                }
+                //Color gen from https://www.paulirish.com/2009/random-hex-color-code-snippets/
+                document.getElementById("holder").innerHTML += '<div style=\"background-color: #' + Math.floor(Math.random() * 16777215).toString(16) + ";" + '>"class="square"></div>';
+                setTimeout(Squares, 200);
             }
         }
 
         function stop() {
-            console.log(stopz)
             stopz = true;
             document.getElementById("btnOne").innerHTML = "Start!";
             document.getElementById("btnOne").setAttribute("onClick", "btnOneClick()");
             return;
-        }
-
-        function colour() {
-            return '#' + Math.floor(Math.random() * 16777215).toString(16);
         }
     </script>
 </body>
