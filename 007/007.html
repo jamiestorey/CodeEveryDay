@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<title>Day 002 | CodeEveryDay</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+
+<body>
+    <header class="w3-container w3-blue">
+        <h1>Day 002 - JavaFX App</h1>
+        <a href="https://github.com/jamiestorey/CodeEveryDay/tree/master/002/sample">View on GitHub</a>
+    </header>
+
+    <main class="w3-container w3-purple" style="width: 100%">
+        <h2>Images</h2>
+
+        <div class="w3-content w3-display-container w3-center">
+
+            <a class="w3-btn-floating w3-hover-dark-grey w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+            <a class="w3-btn-floating w3-hover-dark-grey w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+
+            <div class="w3-display-container mySlides">
+                <img src="app.jpg" style="width:85%; height: 75%;">
+                <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                    The App
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="addedRed.jpg" style="width:85%">
+                <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                    Added Red
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="red.jpg" style="width:85%">
+                <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                    Red
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="removeRed.jpg" style="width:85%">
+                <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                    Remove Red
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="removedRed.jpg" style="width:85%">
+                <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                    Removed Red, now Blue
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="close.jpg" style="width:85%">
+                <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                    Close the App
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="w3-container w3-teal">
+        <h5>CodeEveryDay...</h5>
+        <p>If you read this you owe me a cookie!</p>
+    </footer>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+</body>
+
+</html>
