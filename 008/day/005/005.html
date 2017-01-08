@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Day 005 - Squares | CodeEveryDay.win</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../Content/codeeveryday.css" rel="stylesheet" />
+    <meta name="description" content="Code Every Day - Day 005 - Squares, Generate different colour squares.">
+    <style>
+        button {
+            font-size: 2em;
+            margin: 5px;
+        }
+        
+        .square {
+            border: 1px solid red;
+            text-align: center;
+            width: 10px;
+            height: 10px;
+            float: left;
+            padding: 5px;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <header class="container">
+        <h1>Day 005 - Squares</h1>
+        <p>Click the button to generate different colour squares.</p>
+    </header>
+
+    <nav class="container navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://codeeveryday.win">
+                    <img alt="Brand" src="../../Content/favicon.ico">
+                    Code Every Day
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Days<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="active"><a href="http://codeeveryday.win/day/005/005.html">Day 005</a></li>
+                            <li><a href="http://codeeveryday.win/006/006.html">Day 006</a></li>
+                            <li><a href="http://codeeveryday.win/007/007.html">Day 007</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://github.com/jamiestorey/CodeEveryDay/tree/master/005"><span><i class="fa fa-github fa-2x"></i></span> View on Github</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <button id="btnOne" onclick="btnOneClick()">Start!</button>
+            <div id="holder" class="holder container">
+            </div>
+        </div>
+    </main>
+
+    <footer class="container">
+        <h5>Code Every Day</h5>
+        <p>If you read this you owe me a cookie!</p>
+    </footer>
+
+    
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        var stopz = false;
+
+        function btnOneClick() {
+            document.getElementById("btnOne").innerHTML = "Stop!";
+            document.getElementById("btnOne").setAttribute("onClick", "stop()");
+            stopz = false;
+            Squares();
+        }
+
+        function Squares() {
+            if (!stopz) {
+                //Color gen from https://www.paulirish.com/2009/random-hex-color-code-snippets/
+                document.getElementById("holder").innerHTML += '<div style=\"background-color: #' + Math.floor(Math.random() * 16777215).toString(16) + ';"' + 'class="square"></div>';
+                setTimeout(Squares, 200);
+            }
+        }
+
+        function stop() {
+            stopz = true;
+            document.getElementById("btnOne").innerHTML = "Start!";
+            document.getElementById("btnOne").setAttribute("onClick", "btnOneClick()");
+            return;
+        }
+    </script>
+</body>
+
+</html>

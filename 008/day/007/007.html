@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 002 | CodeEveryDay</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../Content/codeeveryday.css" rel="stylesheet" />
+    <meta name="description" content="Code Every Day - Day 007 - Webpage for Day 002 - JavaFX App">
+</head>
+
+<body>
+    <header class="w3-container w3-blue">
+        <h1>Day 007 - Webpage for Day 002 - JavaFX App</h1>
+        <a class="headerGithubLink" href="https://github.com/jamiestorey/CodeEveryDay/tree/master/002/sample">View Day 002 on GitHub</a>
+    </header>
+
+    <nav class="container navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://codeeveryday.win">
+                    <img alt="Brand" src="../../Content/favicon.ico">
+                    Code Every Day
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Days<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://codeeveryday.win/day/005/005.html">Day 005</a></li>
+                            <li><a href="http://codeeveryday.win/006/006.html">Day 006</a></li>
+                            <li class="active"><a href="http://codeeveryday.win/007/007.html">Day 007</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://github.com/jamiestorey/CodeEveryDay/tree/master/007"><span><i class="fa fa-github fa-2x"></i></span> View on Github</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="w3-container w3-purple" style="width: 100%">
+        <h2>Images</h2>
+
+        <div class="w3-content w3-display-container w3-center">
+
+            <a class="w3-btn-floating w3-hover-dark-grey w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+            <a class="w3-btn-floating w3-hover-dark-grey w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+
+            <div class="w3-display-container mySlides">
+                <img src="app.jpg" style="width:85%; height: 75%;">
+                <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                    The App
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="addedRed.jpg" style="width:85%">
+                <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                    Added Red
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="red.jpg" style="width:85%">
+                <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                    Red
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="removeRed.jpg" style="width:85%">
+                <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                    Remove Red
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="removedRed.jpg" style="width:85%">
+                <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                    Removed Red, now Blue
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="close.jpg" style="width:85%">
+                <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                    Close the App
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="w3-container w3-teal">
+        <h5>CodeEveryDay...</h5>
+        <p>If you read this you owe me a cookie!</p>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+</body>
+
+</html>
