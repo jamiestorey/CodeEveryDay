@@ -1,0 +1,32 @@
+﻿body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header, footer {
+    background: #8711ef;
+}
+.headerGithubLink {
+    color: white;
+    font-size: 1.2em;
+}
+header p {
+    font-size: 1.4em;
+}
+footer h5 {
+    font-size: 1.5em;
+}
+footer p {
+    font-size: 1.3em;
+}
+.navbar-nav > li > a {
+    line-height: 50px;
+}
+.navbar-nav > li > a {
+    font-size: 1.25em;
+}
+.navbar-brand > img {
+    display: inline;
+}
+.navbar-brand {
+    line-height: 49px;
+}
