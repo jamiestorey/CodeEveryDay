@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>026</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/default.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        Header...
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" class="link-1">One</a></li>
+            <li><a href="#" class="link-2">Two</a></li>
+            <li><a href="#" class="link-3">Three</a></li>
+            <li><a href="#" class="link-4">Four</a></li>
+            <li><a href="#" class="link-5">Five</a></li>
+            <li><a href="#" class="link-6">Six</a></li>
+        </ul>
+        <div class="holder"></div>
+    </nav>
+
+    <section id="main-content">
+        <h1>Main Heading</h1>
+        <img class="heading-img" src="images/placeholder.png" alt="a blank image" />
+        <p id="main-p">The main content here. Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text.
+        </p>
+
+        <section id="contents">
+            <h2>contents</h2>
+            <section class="content-item">
+                <h3>content 1</h3>
+                <img src="images/placeholder.png" alt="" />
+                <p>The main content here. Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more
+                    text.
+                </p>
+            </section>
+
+            <section class="content-item">
+                <h3>content 2</h3>
+                <img src="images/placeholder.png" alt="" />
+                <p>The main content here. Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more
+                    text.
+                </p>
+            </section>
+
+            <section class="content-item">
+                <h3>content 3</h3>
+                <img src="images/placeholder.png" alt="" />
+                <p>The main content here. Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more
+                    text.
+                </p>
+            </section>
+
+            <section class="content-item">
+                <h3>content 4</h3>
+                <img src="images/placeholder.png" alt="" />
+                <p>The main content here. Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more
+                    text.
+                </p>
+            </section>
+        </section>
+    </section>
+
+    <footer>
+        <p>Copyright 2017 &copy;</p>
+        <a href="#">Jump to Top</a>
+    </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+    $(".content-item").click(function() {
+        $(this).children("img").animate({
+            width: ["toggle", "swing"],
+            height: ["toggle", "swing"],
+            opacity: "toggle"
+        }, 5000, "linear", function() {
+            $(this).after("<div class='cool'>Animation complete.</div>");
+            $(".cool").slideToggle("slow", function() {
+                $(".content-item").each(function(i, e) {
+                    console.log(i + ' ' + e);
+                    $(e).css("background-color", '#' + ('00000' + (Math.random() * (1 << 24) | 0).toString(16)).slice(-6));
+                    $(e).css("color", '#' + ('00000' + (Math.random() * (1 << 24) | 0).toString(16)).slice(-6));
+                    $(".cool").hide(function() {
+                        setTimeout(function() {
+                            $(".holder").append('<div style=\"background-color: #' + Math.floor(Math.random() * 16777215).toString(16) + ';"' + 'class="square"></div>');
+                        }, 200);
+
+                    });
+                });
+                //Color gen from https://www.paulirish.com/2009/random-hex-color-code-snippets/
+            });
+        });
+    });
+</script>
+
+</html>
