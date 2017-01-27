@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>027 - Jquery Window Width and Height</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/default.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        Header...
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" class="link-1">One</a></li>
+            <li><a href="#" class="link-2">Two</a></li>
+            <li><a href="#" class="link-3">Three</a></li>
+            <li><a href="#" class="link-4">Four</a></li>
+            <li><a href="#" class="link-5">Five</a></li>
+            <li><a href="#" class="link-6">Six</a></li>
+        </ul>
+        <div class="holder"></div>
+    </nav>
+
+    <section id="main-content">
+        <h1>Main Heading</h1>
+        <img class="heading-img" src="images/placeholder.png" alt="a blank image" />
+        <p id="main-p">The main content here. Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text.
+        </p>
+        <button class="btn">Click Me :)
+            <pre id="counter">woop</pre>
+        <textarea id="widths" rows="10" cols="22"></textarea>
+        </button>
+        <button id="clear">Clear Text</button>
+
+        <section id="contents">
+            <h2>contents</h2>
+            <section class="content-item">
+                <h3>content 1</h3>
+                <img src="images/placeholder.png" alt="" />
+                <p>The main content here. Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more
+                    text.
+                </p>
+            </section>
+
+            <section class="content-item">
+                <h3>content 2</h3>
+                <img src="images/placeholder.png" alt="" />
+                <p>The main content here. Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more
+                    text.
+                </p>
+            </section>
+
+            <section class="content-item">
+                <h3>content 3</h3>
+                <img src="images/placeholder.png" alt="" />
+                <p>The main content here. Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more
+                    text.
+                </p>
+            </section>
+
+            <section class="content-item">
+                <h3>content 4</h3>
+                <img src="images/placeholder.png" alt="" />
+                <p>The main content here. Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more
+                    text.
+                </p>
+            </section>
+        </section>
+    </section>
+
+    <footer>
+        <p>Copyright 2017 &copy;</p>
+        <a href="#">Jump to Top</a>
+    </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+    var timesClicked = 0;
+    $(".btn").click(function() {
+        timesClicked += 1;
+        var w = $(window).width();
+        var h = $(window).height();
+        $("#counter").text("Times Clicked [ " + timesClicked + " ]")
+            //document.getElementById("widths").text += "Window Width [ " + w + " ]\n";
+        $("#widths").append("Window [Width]:[Height] [ " + w + " ]" + " : [ " + h + " ]\n");
+    });
+    $("#clear").click(function() {
+
+        $("#widths").animate({
+            height: "toggle",
+            opacity: '0.1',
+            width: "+=500px"
+        }, "slow", function() {
+            $("#widths").text("");
+        });
+
+        $("#widths").animate({
+            height: "toggle",
+            opacity: '1.0',
+            width: "-=500px"
+        }, "slow");
+    });
+</script>
+
+</html>
