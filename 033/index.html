@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>026</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/default.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <button type="" style="width:100%; font-size: 2em;">hi</button>
+    <header>
+        Header...
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" class="link-1">One</a></li>
+            <li><a href="#" class="link-2">Two</a></li>
+            <li><a href="#" class="link-3">Three</a></li>
+            <li><a href="#" class="link-4">Four</a></li>
+            <li><a href="#" class="link-5">Five</a></li>
+            <li><a href="#" class="link-6">Six</a></li>
+        </ul>
+        <div class="holder"></div>
+    </nav>
+
+    <section id="main-content">
+        <h1>Main Heading</h1>
+        <img class="heading-img" src="images/placeholder.png" alt="a blank image" />
+        <p id="main-p">The main content here. Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text.
+        </p>
+
+        <section id="contents">
+            <h2>contents</h2>
+            <section class="content-item">
+                <h3>content 1</h3>
+                <img src="images/placeholder.png" alt="" />
+                <p>The main content here. Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more
+                    text.
+                </p>
+            </section>
+
+            <section class="content-item">
+                <h3>content 2</h3>
+                <img src="images/placeholder.png" alt="" />
+                <p>The main content here. Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more
+                    text.
+                </p>
+            </section>
+
+            <section class="content-item">
+                <h3>content 3</h3>
+                <img src="images/placeholder.png" alt="" />
+                <p>The main content here. Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more
+                    text.
+                </p>
+            </section>
+
+            <section class="content-item">
+                <h3>content 4</h3>
+                <img src="images/placeholder.png" alt="" />
+                <p>The main content here. Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more text. Text text and more text.Text text and more
+                    text.
+                </p>
+            </section>
+        </section>
+    </section>
+
+    <footer>
+        <p>Copyright 2017 &copy;</p>
+        <a href="#">Jump to Top</a>
+    </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+    $(function() {
+        var numOfElms = 0;
+        $("body *").each(function(i, e) {
+            console.log(i + ' ' + e);
+            $(e).addClass(i.toString());
+            numOfElms++;
+        });
+
+        $("button").click(function() {
+
+            var x = Math.floor((Math.random() * numOfElms - 13) + 1);
+            console.log(x)
+            if (x != 0) {
+                $("." + x.toString()).fadeToggle({});
+                console.log($(this));
+            }
+
+
+
+        });
+
+    });
+</script>
+
+</html>
