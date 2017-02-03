@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Day 034 | CodeEveryDay</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    button {
+        font-size: 1.2em;
+        display: inline-block;
+        margin: 5px;
+        width: 30%;
+    }
+    
+    h1,
+    pre {
+        margin: 5px auto;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <h1 id="question"></h1>
+    <pre id="log"></pre>
+
+    <script>
+        var correctAnswers = 0;
+        var incorrectAnswers = 0;
+        var num = 0;
+        var num1 = 0;
+        var num2 = 0;
+        generateQuestion();
+
+        function generateQuestion() {
+
+            num1 = Math.floor((Math.random() * 10) + 1);;
+            num2 = Math.floor((Math.random() * 10) + 1);;
+            num = num1 + num2;
+
+            document.getElementById("question").innerText = num1 + " + " + num2 + " = ?";
+        }
+
+        for (var i = 1; i <= 20; i++) {
+            document.write("<button onclick=" + "'answer(" + i + ")'>" + i + "</button>")
+        }
+
+        function answer(i) {
+            if (num == i) {
+                correctAnswers++
+                document.getElementById("log").innerHTML = "Correct: [" + correctAnswers + "]";
+                generateQuestion();
+            } else {
+                incorrectAnswers++;
+                document.getElementById("log").innerHTML = "Incorrect:[" + incorrectAnswers + "]";
+                generateQuestion();
+            }
+        }
+    </script>
+</body>
+
+</html>
