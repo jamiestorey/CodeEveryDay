@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Day 035 | CodeEveryDay</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <script>
+        function clicky() {
+            console.log("click");
+            var w = window.innerWidth ||
+                document.documentElement.clientWidth ||
+                document.body.clientWidth;
+
+            var h = window.innerHeight ||
+                document.documentElement.clientHeight ||
+                document.body.clientHeight;
+            var ranH = Math.floor((Math.random() * h - 80) + 20);
+            var ranW = Math.floor((Math.random() * w - 80) + 20);
+            console.log(ranH);
+            console.log(ranW);
+            if (ranH < 0) {
+                ranH = 0;
+            }
+            if (ranW < 0) {
+                ranW = 0;
+            }
+            document.getElementById("btn").style.left = ranW + "px";
+            document.getElementById("btn").style.top = ranH + "px";
+        }
+    </script>
+    <input type="button" name="btn" value="Click ME" id="btn" onclick="clicky();">
+    <style>
+        #btn {
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            font-size: 1.2em;
+        }
+    </style>
+
+</body>
+
+</html>
