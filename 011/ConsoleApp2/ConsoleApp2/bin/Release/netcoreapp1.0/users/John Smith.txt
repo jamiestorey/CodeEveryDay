@@ -1,4 +1,0 @@
-username:John Smith
-age:42
-height:103
-weight:200
