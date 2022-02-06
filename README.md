@@ -11,6 +11,7 @@ I'll also be going back to the previous days and adding readme files and see if 
 I also have a list of things I'd like to try before December 31st 2022.
 
 ## My Goals:
+- [ ] Add a read me for each day
 - [ ] Create a new code every day website
 - [ ] Learn Docker
 - [ ] Complete [My Bet Website](https://github.com/jamiestorey/BroccoliBet.NodeApp/)
