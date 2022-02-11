@@ -1,0 +1,36 @@
+.top-name {
+  margin-bottom: 5px;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+/*table, thead, tbody, tfoot, th, td, tr {*/
+/*  all: unset;*/
+/*}*/
+table {
+  width: 45%;
+  table-layout: fixed;
+  text-align: center;
+  margin-bottom: 15px;
+}
+tr {
+  /*border: 2px dashed aquamarine;*/
+}
+td {
+  /*width: 10%;*/
+}
+th {
+  width: auto;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.size-86-4 {
+  border: 1px solid green;
+  width: 2.23cm
+}
