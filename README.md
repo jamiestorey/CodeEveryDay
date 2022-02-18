@@ -46,24 +46,24 @@ I also have a list of things I'd like to try before December 31st 2022.
 [Day: 026](https://github.com/jamiestorey/CodeEveryDay/tree/master/026)  JQuery - Animations  
 [Day: 027](https://github.com/jamiestorey/CodeEveryDay/tree/master/027)  JQuery - Display the current window width and height. Also uses a resposive design template I used for a university project  
 [Day: 028](https://github.com/jamiestorey/CodeEveryDay/tree/master/028)  C# - A Console Application that prints a pyramid and displays some numbers  
-[Day: 029](https://github.com/jamiestorey/CodeEveryDay/tree/master/029)  
-[Day: 030](https://github.com/jamiestorey/CodeEveryDay/tree/master/030)  
-[Day: 031](https://github.com/jamiestorey/CodeEveryDay/tree/master/031)  
-[Day: 032](https://github.com/jamiestorey/CodeEveryDay/tree/master/032)  
-[Day: 033](https://github.com/jamiestorey/CodeEveryDay/tree/master/033)  
-[Day: 034](https://github.com/jamiestorey/CodeEveryDay/tree/master/034)  
-[Day: 035](https://github.com/jamiestorey/CodeEveryDay/tree/master/035)  
-[Day: 036](https://github.com/jamiestorey/CodeEveryDay/tree/master/036)  
-[Day: 037](https://github.com/jamiestorey/CodeEveryDay/tree/master/037)  
-[Day: 038](https://github.com/jamiestorey/CodeEveryDay/tree/master/038)  
-[Day: 039](https://github.com/jamiestorey/CodeEveryDay/tree/master/039)  
-[Day: 040](https://github.com/jamiestorey/CodeEveryDay/tree/master/040)  
-[Day: 041](https://github.com/jamiestorey/CodeEveryDay/tree/master/041)  
-[Day: 042](https://github.com/jamiestorey/CodeEveryDay/tree/master/042)  
-[Day: 043](https://github.com/jamiestorey/CodeEveryDay/tree/master/043)  
-[Day: 044](https://github.com/jamiestorey/CodeEveryDay/tree/master/044)  
-[Day: 045](https://github.com/jamiestorey/CodeEveryDay/tree/master/045)  
-[Day: 046](https://github.com/jamiestorey/CodeEveryDay/tree/master/046)  
-[Day: 047](https://github.com/jamiestorey/CodeEveryDay/tree/master/047)  
-[Day: 048](https://github.com/jamiestorey/CodeEveryDay/tree/master/048)  
+[Day: 029](https://github.com/jamiestorey/CodeEveryDay/tree/master/029)  JQuery - Change the colour of every word on the webpage  
+[Day: 030](https://github.com/jamiestorey/CodeEveryDay/tree/master/030)  C# - A Console Applications that does some maths and uses a goto statement 😲  
+[Day: 031](https://github.com/jamiestorey/CodeEveryDay/tree/master/031)  C# - A Console Application where you answer the sum of 2 numbers  
+[Day: 032](https://github.com/jamiestorey/CodeEveryDay/tree/master/032)  C# - Another Console Application that loops through colours  
+[Day: 033](https://github.com/jamiestorey/CodeEveryDay/tree/master/033)  JQuery - Fade a random element  
+[Day: 034](https://github.com/jamiestorey/CodeEveryDay/tree/master/034)  JavaScript - A JavaScript version of Day 031  
+[Day: 035](https://github.com/jamiestorey/CodeEveryDay/tree/master/035)  JavaScript - A Button that changes location when you click it  
+[Day: 036](https://github.com/jamiestorey/CodeEveryDay/tree/master/036)  HTML - A Very basic desktop layout  
+[Day: 037](https://github.com/jamiestorey/CodeEveryDay/tree/master/037)  Python - A Jupyter Notebook for working with dates  
+[Day: 038](https://github.com/jamiestorey/CodeEveryDay/tree/master/038)  Python - An extension to Day 038 with more date formatting  
+[Day: 039](https://github.com/jamiestorey/CodeEveryDay/tree/master/039)  Python - Modified an Azure Function  
+[Day: 040](https://github.com/jamiestorey/CodeEveryDay/tree/master/040)  ❌ - Nothing - I explained why with a link to a blog post  
+[Day: 041](https://github.com/jamiestorey/CodeEveryDay/tree/master/041)  Python - Similar to Days 038 and 039 but now saving dates to a .docx file  
+[Day: 042](https://github.com/jamiestorey/CodeEveryDay/tree/master/042)  HTML - I was trying to create a web version of a spreadsheet I use although I found it too tedious. I plan on trying again later  
+[Day: 043](https://github.com/jamiestorey/CodeEveryDay/tree/master/043)  Python - Edited my Azure Function again  
+[Day: 044](https://github.com/jamiestorey/CodeEveryDay/tree/master/044)  JavaScript - Worked on my Betting Site  
+[Day: 045](https://github.com/jamiestorey/CodeEveryDay/tree/master/045)  JavaScript - More work on my Betting Site  
+[Day: 046](https://github.com/jamiestorey/CodeEveryDay/tree/master/046)  ❌ - No code but created some GitHub issues and enrolled on an OpenLearn course  
+[Day: 047](https://github.com/jamiestorey/CodeEveryDay/tree/master/047)  HTML - Worked on a navigation menu for my Betting Site  
+[Day: 048](https://github.com/jamiestorey/CodeEveryDay/tree/master/048)  Python - A Jupyter notebook for printing the links used to create this list of days 😎  
 [Day: 049](https://github.com/jamiestorey/CodeEveryDay/tree/master/049)  
