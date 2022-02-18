@@ -16,3 +16,54 @@ I also have a list of things I'd like to try before December 31st 2022.
 - [ ] Learn Docker
 - [ ] Complete [My Bet Website](https://github.com/jamiestorey/BroccoliBet.NodeApp/)
 - [ ] Create a pet game website
+
+### The days
+[Day: 001](https://github.com/jamiestorey/CodeEveryDay/tree/master/001) Visual Basic - ASCII Tree  
+[Day: 002](https://github.com/jamiestorey/CodeEveryDay/tree/master/002) JavaFX - Simple App  
+[Day: 003](https://github.com/jamiestorey/CodeEveryDay/tree/master/003) JavaFX - A circle  
+[Day: 004](https://github.com/jamiestorey/CodeEveryDay/tree/master/004) JavaScript - Rock Paper Scissors  
+[Day: 005](https://github.com/jamiestorey/CodeEveryDay/tree/master/005) JavaScript - Load lots of Squares  
+[Day: 006](https://github.com/jamiestorey/CodeEveryDay/tree/master/006) HTML - A Webpage showing the output of Day 001  
+[Day: 007](https://github.com/jamiestorey/CodeEveryDay/tree/master/007) HTML - A Webpage showing the output of Day 002  
+[Day: 008](https://github.com/jamiestorey/CodeEveryDay/tree/master/008) HTML - A website for CodeEveryDay containing only 3 days  
+[Day: 009](https://github.com/jamiestorey/CodeEveryDay/tree/master/009) HTML - A Webpage showing the output of Day 004   
+[Day: 010](https://github.com/jamiestorey/CodeEveryDay/tree/master/010) C# - A .NET Core Console App that prints colours  
+[Day: 011](https://github.com/jamiestorey/CodeEveryDay/tree/master/011) C# - A .NET Core Console App that was originally made in .NET 4?  
+[Day: 012](https://github.com/jamiestorey/CodeEveryDay/tree/master/012) JavaScript - A JavaScript version of the tree/ Pyramid  
+[Day: 013](https://github.com/jamiestorey/CodeEveryDay/tree/master/013) C# - Some random Console Application that Opens a form? 🤷‍♀️ I don't know what I was doing  
+[Day: 014](https://github.com/jamiestorey/CodeEveryDay/tree/master/014)  C++ - A console application that has a menu with a few very simple tasks  
+[Day: 015](https://github.com/jamiestorey/CodeEveryDay/tree/master/015)  Python - A GUI with a shape drawn on it  
+[Day: 016](https://github.com/jamiestorey/CodeEveryDay/tree/master/016)  Java - A GUI for a simple business card design. Something I originally made in Visual Basic at college  
+[Day: 017](https://github.com/jamiestorey/CodeEveryDay/tree/master/017)  Java - Some Awfull GUI I made while learning different concepts. There's some polymorphism with animals printing the sound they make...   
+[Day: 018](https://github.com/jamiestorey/CodeEveryDay/tree/master/018)  Java - A GUI as part of an assignment during the first year of university  
+[Day: 019](https://github.com/jamiestorey/CodeEveryDay/tree/master/019)  Java - Palindrome checker  
+[Day: 020](https://github.com/jamiestorey/CodeEveryDay/tree/master/020)  JQuery - Click a button to change the colour of everything on a webpage  
+[Day: 021](https://github.com/jamiestorey/CodeEveryDay/tree/master/021)  C# - Reversing Strings  
+[Day: 022](https://github.com/jamiestorey/CodeEveryDay/tree/master/022)  Python - Draw circles using pygame  
+[Day: 023](https://github.com/jamiestorey/CodeEveryDay/tree/master/023)  Python - Roating an image using pygame  
+[Day: 024](https://github.com/jamiestorey/CodeEveryDay/tree/master/024)  HTML - A very basic website template  
+[Day: 025](https://github.com/jamiestorey/CodeEveryDay/tree/master/025)  Java - A silly GUI that is pointless and very low quality  
+[Day: 026](https://github.com/jamiestorey/CodeEveryDay/tree/master/026)  JQuery - Animations  
+[Day: 027](https://github.com/jamiestorey/CodeEveryDay/tree/master/027)  JQuery - Display the current window width and height. Also uses a resposive design template I used for a university project  
+[Day: 028](https://github.com/jamiestorey/CodeEveryDay/tree/master/028)  C# - A Console Application that prints a pyramid and displays some numbers  
+[Day: 029](https://github.com/jamiestorey/CodeEveryDay/tree/master/029)  
+[Day: 030](https://github.com/jamiestorey/CodeEveryDay/tree/master/030)  
+[Day: 031](https://github.com/jamiestorey/CodeEveryDay/tree/master/031)  
+[Day: 032](https://github.com/jamiestorey/CodeEveryDay/tree/master/032)  
+[Day: 033](https://github.com/jamiestorey/CodeEveryDay/tree/master/033)  
+[Day: 034](https://github.com/jamiestorey/CodeEveryDay/tree/master/034)  
+[Day: 035](https://github.com/jamiestorey/CodeEveryDay/tree/master/035)  
+[Day: 036](https://github.com/jamiestorey/CodeEveryDay/tree/master/036)  
+[Day: 037](https://github.com/jamiestorey/CodeEveryDay/tree/master/037)  
+[Day: 038](https://github.com/jamiestorey/CodeEveryDay/tree/master/038)  
+[Day: 039](https://github.com/jamiestorey/CodeEveryDay/tree/master/039)  
+[Day: 040](https://github.com/jamiestorey/CodeEveryDay/tree/master/040)  
+[Day: 041](https://github.com/jamiestorey/CodeEveryDay/tree/master/041)  
+[Day: 042](https://github.com/jamiestorey/CodeEveryDay/tree/master/042)  
+[Day: 043](https://github.com/jamiestorey/CodeEveryDay/tree/master/043)  
+[Day: 044](https://github.com/jamiestorey/CodeEveryDay/tree/master/044)  
+[Day: 045](https://github.com/jamiestorey/CodeEveryDay/tree/master/045)  
+[Day: 046](https://github.com/jamiestorey/CodeEveryDay/tree/master/046)  
+[Day: 047](https://github.com/jamiestorey/CodeEveryDay/tree/master/047)  
+[Day: 048](https://github.com/jamiestorey/CodeEveryDay/tree/master/048)  
+[Day: 049](https://github.com/jamiestorey/CodeEveryDay/tree/master/049)  
