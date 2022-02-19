@@ -47,7 +47,7 @@ I also have a list of things I'd like to try before December 31st 2022.
 [Day: 027](https://github.com/jamiestorey/CodeEveryDay/tree/master/027) - JQuery - Display the current window width and height. Also uses a resposive design template I used for a university project  
 [Day: 028](https://github.com/jamiestorey/CodeEveryDay/tree/master/028) - C# - A Console Application that prints a pyramid and displays some numbers  
 [Day: 029](https://github.com/jamiestorey/CodeEveryDay/tree/master/029) - JQuery - Change the colour of every word on the webpage  
-[Day: 030](https://github.com/jamiestorey/CodeEveryDay/tree/master/030) - C# - A Console Applications that does some maths and uses a goto statement 😲  
+[Day: 030](https://github.com/jamiestorey/CodeEveryDay/tree/master/030) - C# - A Console Application that does some maths and uses a goto statement 😲  
 [Day: 031](https://github.com/jamiestorey/CodeEveryDay/tree/master/031) - C# - A Console Application where you answer the sum of 2 numbers  
 [Day: 032](https://github.com/jamiestorey/CodeEveryDay/tree/master/032) - C# - Another Console Application that loops through colours  
 [Day: 033](https://github.com/jamiestorey/CodeEveryDay/tree/master/033) - JQuery - Fade a random element  
