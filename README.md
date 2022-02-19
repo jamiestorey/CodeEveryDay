@@ -67,3 +67,4 @@ I also have a list of things I'd like to try before December 31st 2022.
 [Day: 047](https://github.com/jamiestorey/CodeEveryDay/tree/master/047) - HTML - Worked on a navigation menu for my Betting Site  
 [Day: 048](https://github.com/jamiestorey/CodeEveryDay/tree/master/048) - Python - A Jupyter notebook for printing the links used to create this list of days 😎  
 [Day: 049](https://github.com/jamiestorey/CodeEveryDay/tree/master/049) - Python - A Jupyter notebook that reads this list to extract what language was used 
+[Day: 050](https://github.com/jamiestorey/CodeEveryDay/tree/master/050) - 📂 - No code writing but looked at some of my old projects and used a PowerShell script from Stack Overflow to remove files that should have been ignored  
