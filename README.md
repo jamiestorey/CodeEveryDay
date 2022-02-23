@@ -71,3 +71,4 @@ I also have a list of things I'd like to try before December 31st 2022.
 [Day: 051](https://github.com/jamiestorey/CodeEveryDay/tree/master/051) - WordPress - Added a portfolio page to my Wordpress Development Diary website. (It looks awful 😛)  
 [Day: 052](https://github.com/jamiestorey/CodeEveryDay/tree/master/052) - Blazor - Started following along with a video tutorial of Blazor in preperation of starting my own project  
 [Day: 053](https://github.com/jamiestorey/CodeEveryDay/tree/master/053) - Blazor - Added football fixtures as a Blazor Component. This is the start of making my betting app in .NET  
+[Day: 054](https://github.com/jamiestorey/CodeEveryDay/tree/master/053) - JavaScript - Worked on my betting app and thought of more work I have to do  
