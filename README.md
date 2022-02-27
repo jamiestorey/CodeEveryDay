@@ -74,4 +74,5 @@ I also have a list of things I'd like to try before December 31st 2022.
 [Day: 054](https://github.com/jamiestorey/CodeEveryDay/tree/master/054) - JavaScript - Worked on my betting app and thought of more work I have to do  
 [Day: 055](https://github.com/jamiestorey/CodeEveryDay/tree/master/055) - JavaScript - Worked on my betting app and found a bug 🐛 while working on a feature  
 [Day: 056](https://github.com/jamiestorey/CodeEveryDay/tree/master/056) - Python - A small modification to my Azure function for my betting site.    
-[Day: 057](https://github.com/jamiestorey/CodeEveryDay/tree/master/057) - ❌ - No code but created some GitHub issues
+[Day: 057](https://github.com/jamiestorey/CodeEveryDay/tree/master/057) - ❌ - No code but created some GitHub issues  
+[Day: 058](https://github.com/jamiestorey/CodeEveryDay/tree/master/058) - ❌ - No code but created some GitHub issues and worked on my blog  
