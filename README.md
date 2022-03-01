@@ -77,3 +77,4 @@ I also have a list of things I'd like to try before December 31st 2022.
 [Day: 057](https://github.com/jamiestorey/CodeEveryDay/tree/master/057) - ❌ - No code but created some GitHub issues  
 [Day: 058](https://github.com/jamiestorey/CodeEveryDay/tree/master/058) - ❌ - No code but created some GitHub issues and worked on my blog  
 [Day: 059](https://github.com/jamiestorey/CodeEveryDay/tree/master/059) - JavaScript - Using fetch to load JSON data. I'm going to use something similar in my betting website  
+[Day: 060](https://github.com/jamiestorey/CodeEveryDay/tree/master/060) - Visual Basic - Looked at an old project  
