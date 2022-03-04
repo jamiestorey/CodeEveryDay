@@ -80,3 +80,4 @@ I also have a list of things I'd like to try before December 31st 2022.
 [Day: 060](https://github.com/jamiestorey/CodeEveryDay/tree/master/060) - Visual Basic - Looked at an old project  
 [Day: 061](https://github.com/jamiestorey/CodeEveryDay/tree/master/061) - ❌ - I wanted to use a html canvas and JavaScript to create a web version of my Visual Basic Racing game but spent too much time reading guies instead of wrting code  
 [Day: 062](https://github.com/jamiestorey/CodeEveryDay/tree/master/062) - ❌ - 🙃  
+[Day: 063](https://github.com/jamiestorey/CodeEveryDay/tree/master/063) - 😤 - Tried to use Python to bulk insert sports api data into a MySQL databse but failed  
