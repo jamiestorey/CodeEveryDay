@@ -81,3 +81,4 @@ I also have a list of things I'd like to try before December 31st 2022.
 [Day: 061](https://github.com/jamiestorey/CodeEveryDay/tree/master/061) - ❌ - I wanted to use a html canvas and JavaScript to create a web version of my Visual Basic Racing game but spent too much time reading guies instead of wrting code  
 [Day: 062](https://github.com/jamiestorey/CodeEveryDay/tree/master/062) - ❌ - 🙃  
 [Day: 063](https://github.com/jamiestorey/CodeEveryDay/tree/master/063) - 😤 - Tried to use Python to bulk insert sports api data into a MySQL databse but failed  
+[Day: 064](https://github.com/jamiestorey/CodeEveryDay/tree/master/064) - Python - As above I still tired to insert data into a MySQL database but only inserred 1 row. There's over 500 to insert later    
