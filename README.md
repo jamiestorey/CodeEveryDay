@@ -83,3 +83,4 @@ I also have a list of things I'd like to try before December 31st 2022.
 [Day: 063](https://github.com/jamiestorey/CodeEveryDay/tree/master/063) - 😤 - Tried to use Python to bulk insert sports api data into a MySQL databse but failed  
 [Day: 064](https://github.com/jamiestorey/CodeEveryDay/tree/master/064) - Python - As above I still tired to insert data into a MySQL database but only inserred 1 row. There's over 500 to insert later    
 [Day: 065](https://github.com/jamiestorey/CodeEveryDay/tree/master/065) - Python - Completed what I wanted to do from Days 063 and 064  
+[Day: 066](https://github.com/jamiestorey/CodeEveryDay/tree/master/066) - JavaScript - Closed an issue for my betting site. I thought it would take me a long time to fix. [Betting Site Issue 6](https://github.com/jamiestorey/BroccoliBet.NodeApp/issues/6)  
