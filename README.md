@@ -90,4 +90,5 @@ I also have a list of things I'd like to try before December 31st 2022.
 [Day: 070](https://github.com/jamiestorey/CodeEveryDay/tree/master/070) - **🐛** - Found a bug in my betting site. Something I overlooked when I thought I fixed something 🙄 [Betting Site Issue 6 Again](https://github.com/jamiestorey/BroccoliBet.NodeApp/issues/6#issuecomment-1065646118)
 [Day: 071](https://github.com/jamiestorey/CodeEveryDay/tree/master/071) - **Python** -Fixed yesterdays bug. [Custom BSON _id](https://github.com/jamiestorey/BroccoliBet.Functions.Azure.DailyAPI/commit/56d6f7f0c044e5eec2a19b06c7f37936ce8cd431)  
 [Day: 072](https://github.com/jamiestorey/CodeEveryDay/tree/master/071) - **Python** -Modfied an Azure function for my betting site. Small changes but took a couple of hours. [Day 072 Azure Function Changes](https://github.com/jamiestorey/BroccoliBet.Functions.Azure.DailyAPI/commit/db37c9b56ae7a77a725bb32482eec100089f1c65)  
+[Day: 073](https://github.com/jamiestorey/CodeEveryDay/tree/master/073) - **HTML** -Removed unused HTML on my betting website  
 
