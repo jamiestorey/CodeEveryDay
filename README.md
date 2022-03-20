@@ -96,3 +96,4 @@ I also have a list of things I'd like to try before December 31st 2022.
 [Day: 076] - **❌** - 10th time not doing anything 🙃  
 [Day: 077] - **❌** - 11th time not doing anything 🙃  
 [Day: 078] - **❌** - 12th time not doing anything 🙃  
+[Day: 079] - **❌** - 13th time not doing anything 🙃 
