@@ -92,8 +92,9 @@ I also have a list of things I'd like to try before December 31st 2022.
 [Day: 072](https://github.com/jamiestorey/CodeEveryDay/tree/master/071) - **Python** -Modfied an Azure function for my betting site. Small changes but took a couple of hours. [Day 072 Azure Function Changes](https://github.com/jamiestorey/BroccoliBet.Functions.Azure.DailyAPI/commit/db37c9b56ae7a77a725bb32482eec100089f1c65)  
 [Day: 073](https://github.com/jamiestorey/CodeEveryDay/tree/master/073) - **HTML** -Removed unused HTML on my betting website  
 [Day: 074] - **❌** - 8th time not doing anything 🙃  
-[Day: 075] - **❌** - 9th time not doing anything 🙃 
+[Day: 075] - **❌** - 9th time not doing anything 🙃  
 [Day: 076] - **❌** - 10th time not doing anything 🙃  
 [Day: 077] - **❌** - 11th time not doing anything 🙃  
 [Day: 078] - **❌** - 12th time not doing anything 🙃  
-[Day: 079] - **❌** - 13th time not doing anything 🙃 
+[Day: 079] - **❌** - 13th time not doing anything 🙃  
+[Day: 080] - **❌** - 14th time not doing anything 🙃 I'm going to do something on day 081  
