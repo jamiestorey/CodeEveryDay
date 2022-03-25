@@ -101,3 +101,4 @@ I also have a list of things I'd like to try before December 31st 2022.
 [Day: 081] - **❌** - 15th time not doing anything 🙃 ☹  
 [Day: 082] - **❌** - 16th time not doing anything 🙃  
 [Day: 083] - **❌** - 17th time not doing anything.   
+[Day: 084] - **❌** - 18th time not doing anything.  
