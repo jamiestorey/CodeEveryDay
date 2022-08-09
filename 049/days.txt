@@ -1,0 +1,49 @@
+[Day: 001](https://github.com/jamiestorey/CodeEveryDay/tree/master/001) - Visual Basic - ASCII Tree  
+[Day: 002](https://github.com/jamiestorey/CodeEveryDay/tree/master/002) - JavaFX - Simple App  
+[Day: 003](https://github.com/jamiestorey/CodeEveryDay/tree/master/003) - JavaFX - A circle  
+[Day: 004](https://github.com/jamiestorey/CodeEveryDay/tree/master/004) - JavaScript - Rock Paper Scissors  
+[Day: 005](https://github.com/jamiestorey/CodeEveryDay/tree/master/005) - JavaScript - Load lots of Squares  
+[Day: 006](https://github.com/jamiestorey/CodeEveryDay/tree/master/006) - HTML - A Webpage showing the output of Day 001  
+[Day: 007](https://github.com/jamiestorey/CodeEveryDay/tree/master/007) - HTML - A Webpage showing the output of Day 002  
+[Day: 008](https://github.com/jamiestorey/CodeEveryDay/tree/master/008) - HTML - A website for CodeEveryDay containing only 3 days  
+[Day: 009](https://github.com/jamiestorey/CodeEveryDay/tree/master/009) - HTML - A Webpage showing the output of Day 004   
+[Day: 010](https://github.com/jamiestorey/CodeEveryDay/tree/master/010) - C# - A .NET Core Console App that prints colours  
+[Day: 011](https://github.com/jamiestorey/CodeEveryDay/tree/master/011) - C# - A .NET Core Console App that was originally made in .NET 4?  
+[Day: 012](https://github.com/jamiestorey/CodeEveryDay/tree/master/012) - JavaScript - A JavaScript version of the tree/ Pyramid  
+[Day: 013](https://github.com/jamiestorey/CodeEveryDay/tree/master/013) - C# - Some random Console Application that Opens a form? 🤷‍♀️ I don't know what I was doing  
+[Day: 014](https://github.com/jamiestorey/CodeEveryDay/tree/master/014) - C++ - A console application that has a menu with a few very simple tasks  
+[Day: 015](https://github.com/jamiestorey/CodeEveryDay/tree/master/015) - Python - A GUI with a shape drawn on it  
+[Day: 016](https://github.com/jamiestorey/CodeEveryDay/tree/master/016) - Java - A GUI for a simple business card design. Something I originally made in Visual Basic at college  
+[Day: 017](https://github.com/jamiestorey/CodeEveryDay/tree/master/017) - Java - Some Awfull GUI I made while learning different concepts. There's some polymorphism with animals printing the sound they make...   
+[Day: 018](https://github.com/jamiestorey/CodeEveryDay/tree/master/018) - Java - A GUI as part of an assignment during the first year of university  
+[Day: 019](https://github.com/jamiestorey/CodeEveryDay/tree/master/019) - Java - Palindrome checker  
+[Day: 020](https://github.com/jamiestorey/CodeEveryDay/tree/master/020) - JQuery - Click a button to change the colour of everything on a webpage  
+[Day: 021](https://github.com/jamiestorey/CodeEveryDay/tree/master/021) - C# - Reversing Strings  
+[Day: 022](https://github.com/jamiestorey/CodeEveryDay/tree/master/022) - Python - Draw circles using pygame  
+[Day: 023](https://github.com/jamiestorey/CodeEveryDay/tree/master/023) - Python - Roating an image using pygame  
+[Day: 024](https://github.com/jamiestorey/CodeEveryDay/tree/master/024) - HTML - A very basic website template  
+[Day: 025](https://github.com/jamiestorey/CodeEveryDay/tree/master/025) - Java - A silly GUI that is pointless and very low quality  
+[Day: 026](https://github.com/jamiestorey/CodeEveryDay/tree/master/026) - JQuery - Animations  
+[Day: 027](https://github.com/jamiestorey/CodeEveryDay/tree/master/027) - JQuery - Display the current window width and height. Also uses a resposive design template I used for a university project  
+[Day: 028](https://github.com/jamiestorey/CodeEveryDay/tree/master/028) - C# - A Console Application that prints a pyramid and displays some numbers  
+[Day: 029](https://github.com/jamiestorey/CodeEveryDay/tree/master/029) - JQuery - Change the colour of every word on the webpage  
+[Day: 030](https://github.com/jamiestorey/CodeEveryDay/tree/master/030) - C# - A Console Applications that does some maths and uses a goto statement 😲  
+[Day: 031](https://github.com/jamiestorey/CodeEveryDay/tree/master/031) - C# - A Console Application where you answer the sum of 2 numbers  
+[Day: 032](https://github.com/jamiestorey/CodeEveryDay/tree/master/032) - C# - Another Console Application that loops through colours  
+[Day: 033](https://github.com/jamiestorey/CodeEveryDay/tree/master/033) - JQuery - Fade a random element  
+[Day: 034](https://github.com/jamiestorey/CodeEveryDay/tree/master/034) - JavaScript - A JavaScript version of Day 031  
+[Day: 035](https://github.com/jamiestorey/CodeEveryDay/tree/master/035) - JavaScript - A Button that changes location when you click it  
+[Day: 036](https://github.com/jamiestorey/CodeEveryDay/tree/master/036) - HTML - A Very basic desktop layout  
+[Day: 037](https://github.com/jamiestorey/CodeEveryDay/tree/master/037) - Python - A Jupyter Notebook for working with dates  
+[Day: 038](https://github.com/jamiestorey/CodeEveryDay/tree/master/038) - Python - An extension to Day 038 with more date formatting  
+[Day: 039](https://github.com/jamiestorey/CodeEveryDay/tree/master/039) - Python - Modified an Azure Function  
+[Day: 040](https://github.com/jamiestorey/CodeEveryDay/tree/master/040) - ❌ - Nothing - I explained why with a link to a blog post  
+[Day: 041](https://github.com/jamiestorey/CodeEveryDay/tree/master/041) - Python - Similar to Days 038 and 039 but now saving dates to a .docx file  
+[Day: 042](https://github.com/jamiestorey/CodeEveryDay/tree/master/042) - HTML - I was trying to create a web version of a spreadsheet I use although I found it too tedious. I plan on trying again later  
+[Day: 043](https://github.com/jamiestorey/CodeEveryDay/tree/master/043) - Python - Edited my Azure Function again  
+[Day: 044](https://github.com/jamiestorey/CodeEveryDay/tree/master/044) - JavaScript - Worked on my Betting Site  
+[Day: 045](https://github.com/jamiestorey/CodeEveryDay/tree/master/045) - JavaScript - More work on my Betting Site  
+[Day: 046](https://github.com/jamiestorey/CodeEveryDay/tree/master/046) - ❌ - No code but created some GitHub issues and enrolled on an OpenLearn course  
+[Day: 047](https://github.com/jamiestorey/CodeEveryDay/tree/master/047) - HTML - Worked on a navigation menu for my Betting Site  
+[Day: 048](https://github.com/jamiestorey/CodeEveryDay/tree/master/048) - Python - A Jupyter notebook for printing the links used to create this list of days 😎  
+[Day: 049](https://github.com/jamiestorey/CodeEveryDay/tree/master/049) - Python - A Jupyter notebook that reads this list to extract what language was used 

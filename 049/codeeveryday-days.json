@@ -1,0 +1,249 @@
+{
+  "DAYS": [
+    {
+      "Day": 1,
+      "Tech": "Visual Basic",
+      "description": "ASCII Tree"
+    },
+    {
+      "Day": 2,
+      "Tech": "JavaFX",
+      "description": "Simple App"
+    },
+    {
+      "Day": 3,
+      "Tech": "JavaFX",
+      "description": "A circle"
+    },
+    {
+      "Day": 4,
+      "Tech": "JavaScript",
+      "description": "Rock Paper Scissors"
+    },
+    {
+      "Day": 5,
+      "Tech": "JavaScript",
+      "description": "Load lots of Squares"
+    },
+    {
+      "Day": 6,
+      "Tech": "HTML",
+      "description": "A Webpage showing the output of Day 001"
+    },
+    {
+      "Day": 7,
+      "Tech": "HTML",
+      "description": "A Webpage showing the output of Day 002"
+    },
+    {
+      "Day": 8,
+      "Tech": "HTML",
+      "description": "A website for CodeEveryDay containing only 3 days"
+    },
+    {
+      "Day": 9,
+      "Tech": "HTML",
+      "description": "A Webpage showing the output of Day 004"
+    },
+    {
+      "Day": 10,
+      "Tech": "C#",
+      "description": "A .NET Core Console App that prints colours"
+    },
+    {
+      "Day": 11,
+      "Tech": "C#",
+      "description": "A .NET Core Console App that was originally made in .NET 4?"
+    },
+    {
+      "Day": 12,
+      "Tech": "JavaScript",
+      "description": "A JavaScript version of the tree/ Pyramid"
+    },
+    {
+      "Day": 13,
+      "Tech": "C#",
+      "description": "Some random Console Application that Opens a form? \ud83e\udd37\u200d\u2640\ufe0f I don't know what I was doing"
+    },
+    {
+      "Day": 14,
+      "Tech": "C++",
+      "description": "A console application that has a menu with a few very simple tasks"
+    },
+    {
+      "Day": 15,
+      "Tech": "Python",
+      "description": "A GUI with a shape drawn on it"
+    },
+    {
+      "Day": 16,
+      "Tech": "Java",
+      "description": "A GUI for a simple business card design. Something I originally made in Visual Basic at college"
+    },
+    {
+      "Day": 17,
+      "Tech": "Java",
+      "description": "Some Awfull GUI I made while learning different concepts. There's some polymorphism with animals printing the sound they make..."
+    },
+    {
+      "Day": 18,
+      "Tech": "Java",
+      "description": "A GUI as part of an assignment during the first year of university"
+    },
+    {
+      "Day": 19,
+      "Tech": "Java",
+      "description": "Palindrome checker"
+    },
+    {
+      "Day": 20,
+      "Tech": "JQuery",
+      "description": "Click a button to change the colour of everything on a webpage"
+    },
+    {
+      "Day": 21,
+      "Tech": "C#",
+      "description": "Reversing Strings"
+    },
+    {
+      "Day": 22,
+      "Tech": "Python",
+      "description": "Draw circles using pygame"
+    },
+    {
+      "Day": 23,
+      "Tech": "Python",
+      "description": "Roating an image using pygame"
+    },
+    {
+      "Day": 24,
+      "Tech": "HTML",
+      "description": "A very basic website template"
+    },
+    {
+      "Day": 25,
+      "Tech": "Java",
+      "description": "A silly GUI that is pointless and very low quality"
+    },
+    {
+      "Day": 26,
+      "Tech": "JQuery",
+      "description": "Animations"
+    },
+    {
+      "Day": 27,
+      "Tech": "JQuery",
+      "description": "Display the current window width and height. Also uses a resposive design template I used for a university project"
+    },
+    {
+      "Day": 28,
+      "Tech": "C#",
+      "description": "A Console Application that prints a pyramid and displays some numbers"
+    },
+    {
+      "Day": 29,
+      "Tech": "JQuery",
+      "description": "Change the colour of every word on the webpage"
+    },
+    {
+      "Day": 30,
+      "Tech": "C#",
+      "description": "A Console Applications that does some maths and uses a goto statement \ud83d\ude32"
+    },
+    {
+      "Day": 31,
+      "Tech": "C#",
+      "description": "A Console Application where you answer the sum of 2 numbers"
+    },
+    {
+      "Day": 32,
+      "Tech": "C#",
+      "description": "Another Console Application that loops through colours"
+    },
+    {
+      "Day": 33,
+      "Tech": "JQuery",
+      "description": "Fade a random element"
+    },
+    {
+      "Day": 34,
+      "Tech": "JavaScript",
+      "description": "A JavaScript version of Day 031"
+    },
+    {
+      "Day": 35,
+      "Tech": "JavaScript",
+      "description": "A Button that changes location when you click it"
+    },
+    {
+      "Day": 36,
+      "Tech": "HTML",
+      "description": "A Very basic desktop layout"
+    },
+    {
+      "Day": 37,
+      "Tech": "Python",
+      "description": "A Jupyter Notebook for working with dates"
+    },
+    {
+      "Day": 38,
+      "Tech": "Python",
+      "description": "An extension to Day 038 with more date formatting"
+    },
+    {
+      "Day": 39,
+      "Tech": "Python",
+      "description": "Modified an Azure Function"
+    },
+    {
+      "Day": 40,
+      "Tech": "\u274c",
+      "description": "Nothing - I explained why with a link to a blog post"
+    },
+    {
+      "Day": 41,
+      "Tech": "Python",
+      "description": "Similar to Days 038 and 039 but now saving dates to a .docx file"
+    },
+    {
+      "Day": 42,
+      "Tech": "HTML",
+      "description": "I was trying to create a web version of a spreadsheet I use although I found it too tedious. I plan on trying again later"
+    },
+    {
+      "Day": 43,
+      "Tech": "Python",
+      "description": "Edited my Azure Function again"
+    },
+    {
+      "Day": 44,
+      "Tech": "JavaScript",
+      "description": "Worked on my Betting Site"
+    },
+    {
+      "Day": 45,
+      "Tech": "JavaScript",
+      "description": "More work on my Betting Site"
+    },
+    {
+      "Day": 46,
+      "Tech": "\u274c",
+      "description": "No code but created some GitHub issues and enrolled on an OpenLearn course"
+    },
+    {
+      "Day": 47,
+      "Tech": "HTML",
+      "description": "Worked on a navigation menu for my Betting Site"
+    },
+    {
+      "Day": 48,
+      "Tech": "Python",
+      "description": "A Jupyter notebook for printing the links used to create this list of days \ud83d\ude0e"
+    },
+    {
+      "Day": 49,
+      "Tech": "Python",
+      "description": "A Jupyter notebook that reads this list to extract what language was used"
+    }
+  ]
+}
